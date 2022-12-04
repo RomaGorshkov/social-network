@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  min-width: 300px;
+  height: 50px;
+  position: fixed;
+  bottom: 50px;
+  border-radius: 20px;
+  background-color: rgba(117, 190, 218, 0.5)
+}
+
+.navigation svg {
+  color: black;
+}
