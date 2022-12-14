@@ -8,7 +8,7 @@ import { FiMessageSquare, FiUsers, FiSettings } from 'react-icons/fi';
 import { GiThreeFriends } from 'react-icons/gi';
 
 
-export const Navigation = ({ isAuth }) => {
+export const Navigation = () => {
   return (
     <Container>
       <div className={styles.navigation}>

@@ -2,9 +2,10 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Route, Routes } from 'react-router';
 import { fetchMe, isAuthCheck } from './redux/slices/auth';
+import { MainLayout } from './components/Layouts/MainLayout';
 
 import { Login } from './components/Login/Login';
-import { MainLayout } from './components/Layouts/MainLayout';
+import { Profile } from './components/Profile/Profile';
 
 function App() {
 
@@ -22,8 +23,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route element={<MainLayout />}>
-          <Route path="/" element={<h1>123</h1>} />
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Profile />} />
         </Route>
         <Route path="/login" element={<Login />} />
       </Routes>

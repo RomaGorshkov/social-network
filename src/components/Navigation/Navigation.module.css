@@ -17,6 +17,12 @@
   background-color: rgba(117, 190, 218, 0.5)
 }
 
+.menu a .active {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
 .navigation svg {
   color: black;
 }

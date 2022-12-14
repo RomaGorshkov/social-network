@@ -28,6 +28,9 @@
   background-color: #1976d2;
 }
 
+.profileLink {
+  margin-right: 10px;
+}
 
 .header svg {
   color: white;
